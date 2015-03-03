@@ -19,51 +19,53 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE030183_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yHe-Bt-eAN">
                                 <rect key="frame" x="-15" y="-8" width="399" height="709"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDH-xM-1kJ">
-                                <rect key="frame" x="16" y="527" width="100" height="82"/>
-                                <state key="normal" title="Button" image="ボタン１.jpg">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mga-ec-NOs">
+                                <rect key="frame" x="9" y="547" width="112" height="100"/>
+                                <state key="normal" title="Button" image="ボタン１ 18-31-58-129.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVC-Mn-b8Q">
-                                <rect key="frame" x="263" y="530" width="102" height="84"/>
-                                <state key="normal" title="Button" image="ボタン２.jpg">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJI-yz-Ld9">
+                                <rect key="frame" x="252" y="541" width="123" height="101"/>
+                                <state key="normal" title="Button" image="ボタン２ 18-31-58-174.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="push" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8BQ-BL-m57"/>
+                                    <action selector="push" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3o5-we-kG1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adf-hX-siZ">
-                                <rect key="frame" x="132" y="529" width="104" height="85"/>
-                                <state key="normal" title="Button" image="ボタン３.jpg">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0H-Up-aEf">
+                                <rect key="frame" x="127" y="544" width="120" height="98"/>
+                                <state key="normal" title="Button" image="ボタン３ 18-31-58-200.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2J-bU-pSG">
-                                <rect key="frame" x="112" y="41" width="145" height="106"/>
-                                <state key="normal" title="Button" image="ラーメン 16.32.00.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="店完成２.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Pj-Xz-ujX">
-                                <rect key="frame" x="43" y="196" width="304" height="276"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="店完成２ 18-31-58-134.png" translatesAutoresizingMaskIntoConstraints="NO" id="q8D-9z-Xos">
+                                <rect key="frame" x="38" y="207" width="298" height="313"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="猫.png" translatesAutoresizingMaskIntoConstraints="NO" id="Plk-8v-Y6E">
-                                <rect key="frame" x="169" y="298" width="53" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="猫 18-31-58-202.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jnu-w7-Ev8">
+                                <rect key="frame" x="163" y="319" width="49" height="55"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん２.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ekh-1m-MaY">
-                                <rect key="frame" x="75" y="345" width="240" height="46"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん２ 18-31-58-131.png" translatesAutoresizingMaskIntoConstraints="NO" id="pgl-5R-ed2">
+                                <rect key="frame" x="64" y="377" width="249" height="45"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ラーメン 16.32.00 18-31-58-198.png" translatesAutoresizingMaskIntoConstraints="NO" id="QTG-Zv-gOt">
+                                <rect key="frame" x="69" y="99" width="109" height="91"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnV-6G-bOe">
+                                <rect key="frame" x="127" y="47" width="177" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="Botten4" destination="mVC-Mn-b8Q" id="2gy-t6-Sso"/>
-                        <outlet property="Button1" destination="f2J-bU-pSG" id="lFG-ph-eX8"/>
-                        <outlet property="Button2" destination="eDH-xM-1kJ" id="1Ge-gd-Ipq"/>
-                        <outlet property="Button3" destination="Adf-hX-siZ" id="iB4-dZ-fHc"/>
+                        <outlet property="Button1" destination="mga-ec-NOs" id="KeJ-hL-Fs2"/>
+                        <outlet property="Button2" destination="J0H-Up-aEf" id="qE3-pI-afc"/>
+                        <outlet property="Button3" destination="NJI-yz-Ld9" id="u5X-0F-QVs"/>
                         <segue destination="fTh-NH-Ek2" kind="presentation" identifier="movie" id="kAl-zr-ln4"/>
                     </connections>
                 </viewController>
@@ -85,12 +87,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fnq-ul-G3i">
                                 <rect key="frame" x="-48" y="-31" width="423" height="752"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kNm-bM-O7e">
+                                <rect key="frame" x="-38" y="-21" width="423" height="752"/>
+                            </imageView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zfX-F2-XCb">
                                 <rect key="frame" x="0.0" y="15" width="376" height="255"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん.png" translatesAutoresizingMaskIntoConstraints="NO" id="ova-2k-HcB">
-                                <rect key="frame" x="141" y="340" width="213" height="307"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="bGc-we-4H8">
+                                <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -103,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69e-Ik-c87" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="628.5" y="135.5"/>
+            <point key="canvasLocation" x="584.5" y="81.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rm6-wK-eKn">
@@ -117,17 +122,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE030034_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IPx-5b-aXN">
-                                <rect key="frame" x="0.0" y="10" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE030034_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xGg-BO-ABr">
+                                <rect key="frame" x="-9" y="-5" width="403" height="700"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="カップラーメン.png" translatesAutoresizingMaskIntoConstraints="NO" id="Owu-8J-s39">
-                                <rect key="frame" x="63" y="209" width="306" height="280"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="カップラーメン 18-31-58-036.png" translatesAutoresizingMaskIntoConstraints="NO" id="KgK-hv-cq0">
+                                <rect key="frame" x="33" y="153" width="352" height="302"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="文字.png" translatesAutoresizingMaskIntoConstraints="NO" id="1pM-0m-7vi">
-                                <rect key="frame" x="160" y="68" width="154" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="文字 18-31-58-189.png" translatesAutoresizingMaskIntoConstraints="NO" id="3bN-kH-ASb">
+                                <rect key="frame" x="110" y="41" width="177" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBO-EM-FSC">
-                                <rect key="frame" x="69" y="512" width="236" height="77"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igu-Me-UQq">
+                                <rect key="frame" x="71" y="508" width="243" height="83"/>
                                 <state key="normal" title="Button" image="タイトルに戻る.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -141,21 +146,58 @@
             </objects>
             <point key="canvasLocation" x="1146.5" y="118.5"/>
         </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="o1L-jl-4Eh">
+            <objects>
+                <viewController id="dTa-CA-gZL" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rnY-gi-kkf"/>
+                        <viewControllerLayoutGuide type="bottom" id="aYZ-l1-mJs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="stI-nz-Ow4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9h4-5y-Ekx">
+                                <rect key="frame" x="-48" y="-31" width="423" height="752"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RD4-Hc-Oxs">
+                                <rect key="frame" x="-38" y="-21" width="423" height="752"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Na3-Is-hVL">
+                                <rect key="frame" x="0.0" y="15" width="376" height="255"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="wkJ-T8-h4P">
+                                <rect key="frame" x="184" y="401" width="175" height="258"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myWebView" destination="Na3-Is-hVL" id="bhh-TS-ydS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xt4-8t-Fbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="584.5" y="800.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="WE020119_02_1280.jpg" width="1280" height="1280"/>
         <image name="WE030034_02_1280.jpg" width="1280" height="1280"/>
         <image name="WE030183_02_1280.jpg" width="1280" height="1280"/>
-        <image name="うどん.png" width="196" height="335"/>
-        <image name="うどん２.png" width="139" height="35"/>
-        <image name="カップラーメン.png" width="400" height="330"/>
+        <image name="うどん 18-31-58-126.png" width="196" height="335"/>
+        <image name="うどん２ 18-31-58-131.png" width="139" height="35"/>
+        <image name="カップラーメン 18-31-58-036.png" width="400" height="330"/>
         <image name="タイトルに戻る.png" width="471" height="174"/>
-        <image name="ボタン１.jpg" width="241" height="241"/>
-        <image name="ボタン２.jpg" width="241" height="241"/>
-        <image name="ボタン３.jpg" width="241" height="241"/>
-        <image name="ラーメン 16.32.00.png" width="250" height="250"/>
-        <image name="店完成２.png" width="175" height="220"/>
-        <image name="文字.png" width="370" height="276"/>
-        <image name="猫.png" width="150" height="150"/>
+        <image name="ボタン１ 18-31-58-129.jpg" width="241" height="241"/>
+        <image name="ボタン２ 18-31-58-174.jpg" width="241" height="241"/>
+        <image name="ボタン３ 18-31-58-200.jpg" width="241" height="241"/>
+        <image name="ラーメン 16.32.00 18-31-58-198.png" width="250" height="250"/>
+        <image name="店完成２ 18-31-58-134.png" width="175" height="220"/>
+        <image name="文字 18-31-58-189.png" width="370" height="276"/>
+        <image name="猫 18-31-58-202.png" width="150" height="150"/>
     </resources>
 </document>
