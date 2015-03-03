@@ -14,6 +14,22 @@
 		4D94691D1AA58E1E007297AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D94691C1AA58E1E007297AC /* Images.xcassets */; };
 		4D9469201AA58E1E007297AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D94691E1AA58E1E007297AC /* LaunchScreen.xib */; };
 		4D94692C1AA58E1E007297AC /* CookTimer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94692B1AA58E1E007297AC /* CookTimer2Tests.swift */; };
+		4D9469361AA58F6C007297AC /* うどん-２.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469351AA58F6C007297AC /* うどん-２.png */; };
+		4D9469381AA58F7B007297AC /* うどん.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469371AA58F7B007297AC /* うどん.png */; };
+		4D94693C1AA58F91007297AC /* ボタン１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469391AA58F91007297AC /* ボタン１.jpg */; };
+		4D94693D1AA58F91007297AC /* ボタン２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D94693A1AA58F91007297AC /* ボタン２.jpg */; };
+		4D94693E1AA58F91007297AC /* ボタン３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D94693B1AA58F91007297AC /* ボタン３.jpg */; };
+		4D9469411AA58FAD007297AC /* 店完成２.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D94693F1AA58FAD007297AC /* 店完成２.png */; };
+		4D9469421AA58FAD007297AC /* 猫.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469401AA58FAD007297AC /* 猫.png */; };
+		4D9469441AA58FCF007297AC /* ラーメン 16.32.00.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469431AA58FCF007297AC /* ラーメン 16.32.00.png */; };
+		4D9469481AA59006007297AC /* 文字.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469471AA59006007297AC /* 文字.png */; };
+		4D94694A1AA5902C007297AC /* カップラーメン.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469491AA5902C007297AC /* カップラーメン.png */; };
+		4D94694E1AA59048007297AC /* WE020119_02_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D94694B1AA59048007297AC /* WE020119_02_1280.jpg */; };
+		4D94694F1AA59048007297AC /* WE030034_02_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D94694C1AA59048007297AC /* WE030034_02_1280.jpg */; };
+		4D9469501AA59048007297AC /* WE030183_02_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D94694D1AA59048007297AC /* WE030183_02_1280.jpg */; };
+		4D9469541AA591D2007297AC /* タイトルに戻る.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469531AA591D2007297AC /* タイトルに戻る.png */; };
+		4D9469561AA593C2007297AC /* うどん２.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9469551AA593C2007297AC /* うどん２.png */; };
+		4D94695A1AA59760007297AC /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9469591AA59760007297AC /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +54,22 @@
 		4D9469251AA58E1E007297AC /* CookTimer2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookTimer2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D94692A1AA58E1E007297AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D94692B1AA58E1E007297AC /* CookTimer2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookTimer2Tests.swift; sourceTree = "<group>"; };
+		4D9469351AA58F6C007297AC /* うどん-２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "うどん-２.png"; path = "../../../Documents/LIT/うどん-２.png"; sourceTree = "<group>"; };
+		4D9469371AA58F7B007297AC /* うどん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "うどん.png"; path = "../../../Documents/LIT/うどん.png"; sourceTree = "<group>"; };
+		4D9469391AA58F91007297AC /* ボタン１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ボタン１.jpg"; path = "../../../Documents/LIT/ボタン１.jpg"; sourceTree = "<group>"; };
+		4D94693A1AA58F91007297AC /* ボタン２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ボタン２.jpg"; path = "../../../Documents/LIT/ボタン２.jpg"; sourceTree = "<group>"; };
+		4D94693B1AA58F91007297AC /* ボタン３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ボタン３.jpg"; path = "../../../Documents/LIT/ボタン３.jpg"; sourceTree = "<group>"; };
+		4D94693F1AA58FAD007297AC /* 店完成２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "店完成２.png"; path = "../../../Documents/LIT/店完成２.png"; sourceTree = "<group>"; };
+		4D9469401AA58FAD007297AC /* 猫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "猫.png"; path = "../../../Documents/LIT/猫.png"; sourceTree = "<group>"; };
+		4D9469431AA58FCF007297AC /* ラーメン 16.32.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ラーメン 16.32.00.png"; path = "../../../Documents/LIT/ラーメン 16.32.00.png"; sourceTree = "<group>"; };
+		4D9469471AA59006007297AC /* 文字.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "文字.png"; path = "../../../Documents/LIT/文字.png"; sourceTree = "<group>"; };
+		4D9469491AA5902C007297AC /* カップラーメン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "カップラーメン.png"; path = "../../../Documents/LIT/カップラーメン.png"; sourceTree = "<group>"; };
+		4D94694B1AA59048007297AC /* WE020119_02_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WE020119_02_1280.jpg; path = ../../../Downloads/WE020119_02_1280.jpg; sourceTree = "<group>"; };
+		4D94694C1AA59048007297AC /* WE030034_02_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WE030034_02_1280.jpg; path = ../../../Downloads/WE030034_02_1280.jpg; sourceTree = "<group>"; };
+		4D94694D1AA59048007297AC /* WE030183_02_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WE030183_02_1280.jpg; path = ../../../Downloads/WE030183_02_1280.jpg; sourceTree = "<group>"; };
+		4D9469531AA591D2007297AC /* タイトルに戻る.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "タイトルに戻る.png"; path = "../../../Documents/LIT/タイトルに戻る.png"; sourceTree = "<group>"; };
+		4D9469551AA593C2007297AC /* うどん２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "うどん２.png"; path = "../../../Documents/LIT/うどん２.png"; sourceTree = "<group>"; };
+		4D9469591AA59760007297AC /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +111,10 @@
 		4D94690F1AA58E1E007297AC /* CookTimer2 */ = {
 			isa = PBXGroup;
 			children = (
+				4D9469521AA59091007297AC /* image */,
 				4D9469121AA58E1E007297AC /* AppDelegate.swift */,
 				4D9469171AA58E1E007297AC /* ViewController.swift */,
+				4D9469591AA59760007297AC /* MovieViewController.swift */,
 				4D9469191AA58E1E007297AC /* Main.storyboard */,
 				4D94691C1AA58E1E007297AC /* Images.xcassets */,
 				4D94691E1AA58E1E007297AC /* LaunchScreen.xib */,
@@ -113,6 +147,28 @@
 				4D94692A1AA58E1E007297AC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D9469521AA59091007297AC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4D9469551AA593C2007297AC /* うどん２.png */,
+				4D9469531AA591D2007297AC /* タイトルに戻る.png */,
+				4D94694B1AA59048007297AC /* WE020119_02_1280.jpg */,
+				4D94694C1AA59048007297AC /* WE030034_02_1280.jpg */,
+				4D94694D1AA59048007297AC /* WE030183_02_1280.jpg */,
+				4D9469491AA5902C007297AC /* カップラーメン.png */,
+				4D9469471AA59006007297AC /* 文字.png */,
+				4D9469431AA58FCF007297AC /* ラーメン 16.32.00.png */,
+				4D94693F1AA58FAD007297AC /* 店完成２.png */,
+				4D9469401AA58FAD007297AC /* 猫.png */,
+				4D9469391AA58F91007297AC /* ボタン１.jpg */,
+				4D94693A1AA58F91007297AC /* ボタン２.jpg */,
+				4D94693B1AA58F91007297AC /* ボタン３.jpg */,
+				4D9469371AA58F7B007297AC /* うどん.png */,
+				4D9469351AA58F6C007297AC /* うどん-２.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +252,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D94691B1AA58E1E007297AC /* Main.storyboard in Resources */,
+				4D94693E1AA58F91007297AC /* ボタン３.jpg in Resources */,
 				4D9469201AA58E1E007297AC /* LaunchScreen.xib in Resources */,
+				4D9469361AA58F6C007297AC /* うどん-２.png in Resources */,
+				4D9469561AA593C2007297AC /* うどん２.png in Resources */,
+				4D94694A1AA5902C007297AC /* カップラーメン.png in Resources */,
+				4D9469541AA591D2007297AC /* タイトルに戻る.png in Resources */,
 				4D94691D1AA58E1E007297AC /* Images.xcassets in Resources */,
+				4D9469441AA58FCF007297AC /* ラーメン 16.32.00.png in Resources */,
+				4D9469421AA58FAD007297AC /* 猫.png in Resources */,
+				4D9469381AA58F7B007297AC /* うどん.png in Resources */,
+				4D9469501AA59048007297AC /* WE030183_02_1280.jpg in Resources */,
+				4D94694F1AA59048007297AC /* WE030034_02_1280.jpg in Resources */,
+				4D9469411AA58FAD007297AC /* 店完成２.png in Resources */,
+				4D94693C1AA58F91007297AC /* ボタン１.jpg in Resources */,
+				4D94693D1AA58F91007297AC /* ボタン２.jpg in Resources */,
+				4D9469481AA59006007297AC /* 文字.png in Resources */,
+				4D94694E1AA59048007297AC /* WE020119_02_1280.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +289,7 @@
 				4D9469181AA58E1E007297AC /* ViewController.swift in Sources */,
 				4D9469161AA58E1E007297AC /* CookTimer2.xcdatamodeld in Sources */,
 				4D9469131AA58E1E007297AC /* AppDelegate.swift in Sources */,
+				4D94695A1AA59760007297AC /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
