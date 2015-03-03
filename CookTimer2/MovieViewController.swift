@@ -20,8 +20,6 @@ class MovieViewController: UIViewController, UIWebViewDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        //https://www.youtube.com/watch?v=IOtr8Tp_SLs
-        //let url : NSURL = NSURL(string : "https://www.youtube.com/watch?v=rYH8exdFYro")!
         let url : NSURL = NSURL(string : "https://www.youtube.com/embed/IOtr8Tp_SLs")!
         let request : NSURLRequest = NSURLRequest(URL: url)
         myWebView.loadRequest(request)

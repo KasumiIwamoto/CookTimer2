@@ -24,6 +24,9 @@
                                 <state key="normal" title="Button" image="ボタン１ 18-31-58-129.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="push3" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zZM-XD-PVU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJI-yz-Ld9">
                                 <rect key="frame" x="252" y="541" width="123" height="101"/>
@@ -39,18 +42,18 @@
                                 <state key="normal" title="Button" image="ボタン３ 18-31-58-200.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="push2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tIr-0D-Ue4"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="店完成２ 18-31-58-134.png" translatesAutoresizingMaskIntoConstraints="NO" id="q8D-9z-Xos">
-                                <rect key="frame" x="38" y="207" width="298" height="313"/>
+                                <rect key="frame" x="38" y="165" width="298" height="313"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="猫 18-31-58-202.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jnu-w7-Ev8">
-                                <rect key="frame" x="163" y="319" width="49" height="55"/>
+                                <rect key="frame" x="164" y="281" width="49" height="55"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん２ 18-31-58-131.png" translatesAutoresizingMaskIntoConstraints="NO" id="pgl-5R-ed2">
-                                <rect key="frame" x="64" y="377" width="249" height="45"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ラーメン 16.32.00 18-31-58-198.png" translatesAutoresizingMaskIntoConstraints="NO" id="QTG-Zv-gOt">
-                                <rect key="frame" x="69" y="99" width="109" height="91"/>
+                                <rect key="frame" x="63" y="334" width="249" height="45"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnV-6G-bOe">
                                 <rect key="frame" x="127" y="47" width="177" height="21"/>
@@ -58,24 +61,62 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyh-dH-Kzj">
+                                <rect key="frame" x="155" y="15" width="229" height="224"/>
+                                <state key="normal" title="Button" image="うどん２-1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="select2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RTt-yf-N8h"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ラーメン・うどん" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViT-lJ-D10">
+                                <rect key="frame" x="76" y="28" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="どちらを食べますか？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-kr-a8D">
+                                <rect key="frame" x="151" y="52" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="かたさを選んでください" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAw-Fq-5gn">
+                                <rect key="frame" x="110" y="504" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcE-9b-jaJ">
+                                <rect key="frame" x="63" y="80" width="116" height="94"/>
+                                <state key="normal" title="Button" image="ラーメン 16.32.00 18-31-58-198.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="select1" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VbE-WH-C1t"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="Botten4" destination="AcE-9b-jaJ" id="t0u-Wu-3Ai"/>
+                        <outlet property="Botten5" destination="Uyh-dH-Kzj" id="GWz-CW-eA6"/>
                         <outlet property="Button1" destination="mga-ec-NOs" id="KeJ-hL-Fs2"/>
                         <outlet property="Button2" destination="J0H-Up-aEf" id="qE3-pI-afc"/>
                         <outlet property="Button3" destination="NJI-yz-Ld9" id="u5X-0F-QVs"/>
-                        <segue destination="fTh-NH-Ek2" kind="presentation" identifier="movie" id="kAl-zr-ln4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-113.5" y="444.5"/>
         </scene>
         <!--Movie View Controller-->
         <scene sceneID="qeV-W0-8HZ">
             <objects>
-                <viewController id="fTh-NH-Ek2" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie" id="fTh-NH-Ek2" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZGD-7p-pj1"/>
                         <viewControllerLayoutGuide type="bottom" id="lJe-TC-2fI"/>
@@ -108,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69e-Ik-c87" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="584.5" y="81.5"/>
+            <point key="canvasLocation" x="909.5" y="-59.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rm6-wK-eKn">
@@ -144,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1I-bQ-4aU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146.5" y="118.5"/>
+            <point key="canvasLocation" x="2134.5" y="464.5"/>
         </scene>
         <!--Movie View Controller-->
         <scene sceneID="o1L-jl-4Eh">
@@ -181,7 +222,155 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xt4-8t-Fbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="584.5" y="800.5"/>
+            <point key="canvasLocation" x="631.5" y="658.5"/>
+        </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="OM7-Ae-zZ2">
+            <objects>
+                <viewController id="2n5-ni-MOH" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ps7-h4-eZa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xn1-yp-6sI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NWb-Wn-5iJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z55-G0-f0j">
+                                <rect key="frame" x="-48" y="-31" width="423" height="752"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rOP-ky-MaA">
+                                <rect key="frame" x="-38" y="-21" width="423" height="752"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dBE-Uf-4MW">
+                                <rect key="frame" x="0.0" y="15" width="376" height="255"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="T6N-5x-6l2">
+                                <rect key="frame" x="184" y="401" width="175" height="258"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myWebView" destination="dBE-Uf-4MW" id="WsF-dE-Kfa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sAu-AG-g60" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="707.5" y="1534.5"/>
+        </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="oJL-tm-yxH">
+            <objects>
+                <viewController id="xF3-dQ-J7l" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="69h-EQ-Wgx"/>
+                        <viewControllerLayoutGuide type="bottom" id="jk3-t7-dbM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tSM-Uc-VZy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gJi-4E-DO2">
+                                <rect key="frame" x="-48" y="-31" width="423" height="752"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eru-Cv-stq">
+                                <rect key="frame" x="-38" y="-21" width="423" height="752"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCK-4x-G6F">
+                                <rect key="frame" x="0.0" y="15" width="376" height="255"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="ijf-zp-Dpg">
+                                <rect key="frame" x="184" y="401" width="175" height="258"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myWebView" destination="CCK-4x-G6F" id="RQR-K5-uUb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZE-0s-W65" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303.5" y="1334.5"/>
+        </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="c1T-c6-lEU">
+            <objects>
+                <viewController id="Bxh-Ou-OQj" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TdC-n7-TMy"/>
+                        <viewControllerLayoutGuide type="bottom" id="wYG-Lm-b98"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A3S-Cd-xue">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CzF-tO-DEQ">
+                                <rect key="frame" x="-48" y="-31" width="423" height="752"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wrr-Jl-TLV">
+                                <rect key="frame" x="-38" y="-21" width="423" height="752"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kbk-6G-LzM">
+                                <rect key="frame" x="0.0" y="15" width="376" height="255"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="EMn-e2-d5A">
+                                <rect key="frame" x="184" y="401" width="175" height="258"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myWebView" destination="kbk-6G-LzM" id="Uhs-bK-Pyp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMQ-sR-0pD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1296.5" y="718.5"/>
+        </scene>
+        <!--Movie View Controller-->
+        <scene sceneID="w2U-fK-mEz">
+            <objects>
+                <viewController id="bWQ-TP-SCK" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hsR-2Z-dsz"/>
+                        <viewControllerLayoutGuide type="bottom" id="7vB-pB-GSC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6bC-6u-a3W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YFS-Xc-jI4">
+                                <rect key="frame" x="-48" y="-31" width="423" height="752"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WE020119_02_1280.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ltS-KU-qVj">
+                                <rect key="frame" x="-38" y="-21" width="423" height="752"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEI-cP-OsB">
+                                <rect key="frame" x="0.0" y="15" width="376" height="255"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="veK-F2-sYO">
+                                <rect key="frame" x="184" y="401" width="175" height="258"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myWebView" destination="zEI-cP-OsB" id="kaw-gK-Ika"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZBk-2k-1Pd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1121.5" y="1534.5"/>
         </scene>
     </scenes>
     <resources>
@@ -190,6 +379,7 @@
         <image name="WE030183_02_1280.jpg" width="1280" height="1280"/>
         <image name="うどん 18-31-58-126.png" width="196" height="335"/>
         <image name="うどん２ 18-31-58-131.png" width="139" height="35"/>
+        <image name="うどん２-1.png" width="512" height="512"/>
         <image name="カップラーメン 18-31-58-036.png" width="400" height="330"/>
         <image name="タイトルに戻る.png" width="471" height="174"/>
         <image name="ボタン１ 18-31-58-129.jpg" width="241" height="241"/>
