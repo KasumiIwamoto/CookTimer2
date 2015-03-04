@@ -175,10 +175,10 @@
                                 <rect key="frame" x="-9" y="-5" width="403" height="700"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="カップラーメン 18-31-58-036.png" translatesAutoresizingMaskIntoConstraints="NO" id="KgK-hv-cq0">
-                                <rect key="frame" x="33" y="153" width="352" height="302"/>
+                                <rect key="frame" x="0.0" y="137" width="268" height="235"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="文字 18-31-58-189.png" translatesAutoresizingMaskIntoConstraints="NO" id="3bN-kH-ASb">
-                                <rect key="frame" x="110" y="41" width="177" height="128"/>
+                                <rect key="frame" x="176" y="20" width="177" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igu-Me-UQq">
                                 <rect key="frame" x="71" y="508" width="243" height="83"/>
@@ -189,6 +189,9 @@
                                     <segue destination="vXZ-lx-hvc" kind="presentation" id="7Bq-UH-v1U"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_udon.png" translatesAutoresizingMaskIntoConstraints="NO" id="JXN-QZ-kj8">
+                                <rect key="frame" x="161" y="292" width="186" height="165"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -198,10 +201,10 @@
             </objects>
             <point key="canvasLocation" x="1320.5" y="-123.5"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--Movie2 View Controller-->
         <scene sceneID="o1L-jl-4Eh">
             <objects>
-                <viewController storyboardIdentifier="movie2" id="dTa-CA-gZL" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie2" id="dTa-CA-gZL" customClass="Movie2ViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rnY-gi-kkf"/>
                         <viewControllerLayoutGuide type="bottom" id="aYZ-l1-mJs"/>
@@ -244,10 +247,10 @@
             </objects>
             <point key="canvasLocation" x="637.5" y="556.5"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--Movie5 View Controller-->
         <scene sceneID="OM7-Ae-zZ2">
             <objects>
-                <viewController storyboardIdentifier="movie5" id="2n5-ni-MOH" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie5" id="2n5-ni-MOH" customClass="Movie5ViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ps7-h4-eZa"/>
                         <viewControllerLayoutGuide type="bottom" id="Xn1-yp-6sI"/>
@@ -290,10 +293,10 @@
             </objects>
             <point key="canvasLocation" x="707.5" y="1534.5"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--Movie4 View Controller-->
         <scene sceneID="oJL-tm-yxH">
             <objects>
-                <viewController storyboardIdentifier="movie4" id="xF3-dQ-J7l" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie4" id="xF3-dQ-J7l" customClass="Movie4ViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="69h-EQ-Wgx"/>
                         <viewControllerLayoutGuide type="bottom" id="jk3-t7-dbM"/>
@@ -336,10 +339,10 @@
             </objects>
             <point key="canvasLocation" x="253.5" y="1144.5"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--Movie3 View Controller-->
         <scene sceneID="c1T-c6-lEU">
             <objects>
-                <viewController storyboardIdentifier="movie3" id="Bxh-Ou-OQj" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie3" id="Bxh-Ou-OQj" customClass="Movie3ViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TdC-n7-TMy"/>
                         <viewControllerLayoutGuide type="bottom" id="wYG-Lm-b98"/>
@@ -382,10 +385,10 @@
             </objects>
             <point key="canvasLocation" x="1140.5" y="598.5"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--Movie6 View Controller-->
         <scene sceneID="w2U-fK-mEz">
             <objects>
-                <viewController storyboardIdentifier="movie6" id="bWQ-TP-SCK" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie6" id="bWQ-TP-SCK" customClass="Movie6ViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hsR-2Z-dsz"/>
                         <viewControllerLayoutGuide type="bottom" id="7vB-pB-GSC"/>
@@ -433,6 +436,7 @@
         <image name="WE020119_02_1280.jpg" width="1280" height="1280"/>
         <image name="WE030034_02_1280.jpg" width="1280" height="1280"/>
         <image name="WE030183_02_1280.jpg" width="1280" height="1280"/>
+        <image name="food_udon.png" width="516" height="554"/>
         <image name="うどん 18-31-58-126.png" width="196" height="335"/>
         <image name="うどん２ 18-31-58-131.png" width="139" height="35"/>
         <image name="うどん２-1.png" width="512" height="512"/>

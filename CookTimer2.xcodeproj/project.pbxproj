@@ -15,6 +15,7 @@
 		4D9469201AA58E1E007297AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D94691E1AA58E1E007297AC /* LaunchScreen.xib */; };
 		4D94692C1AA58E1E007297AC /* CookTimer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94692B1AA58E1E007297AC /* CookTimer2Tests.swift */; };
 		4D94695A1AA59760007297AC /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9469591AA59760007297AC /* MovieViewController.swift */; };
+		4D9DFE871AA76EE300DADE69 /* food_udon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9DFE861AA76EE300DADE69 /* food_udon.png */; };
 		4DD3B66D1AA5BCD7007D3550 /* WE030034_02_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3B66C1AA5BCD7007D3550 /* WE030034_02_1280.jpg */; };
 		4DD3B66F1AA5C9DA007D3550 /* うどん２-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3B66E1AA5C9DA007D3550 /* うどん２-1.png */; };
 		4DD3B6711AA5DEAB007D3550 /* Movie2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3B6701AA5DEAB007D3550 /* Movie2ViewController.swift */; };
@@ -62,6 +63,7 @@
 		4D94692A1AA58E1E007297AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D94692B1AA58E1E007297AC /* CookTimer2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookTimer2Tests.swift; sourceTree = "<group>"; };
 		4D9469591AA59760007297AC /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		4D9DFE861AA76EE300DADE69 /* food_udon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_udon.png; sourceTree = "<group>"; };
 		4DD3B66C1AA5BCD7007D3550 /* WE030034_02_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WE030034_02_1280.jpg; sourceTree = "<group>"; };
 		4DD3B66E1AA5C9DA007D3550 /* うどん２-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "うどん２-1.png"; sourceTree = "<group>"; };
 		4DD3B6701AA5DEAB007D3550 /* Movie2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie2ViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		4D9469521AA59091007297AC /* image */ = {
 			isa = PBXGroup;
 			children = (
+				4D9DFE861AA76EE300DADE69 /* food_udon.png */,
 				4DD3B67A1AA738A4007D3550 /* つぎへ.png */,
 				4DD3B66C1AA5BCD7007D3550 /* WE030034_02_1280.jpg */,
 				4DE317541AA5B839001FD03D /* WE020119_02_1280.jpg */,
@@ -278,6 +281,7 @@
 				4DE317671AA5B839001FD03D /* カップラーメン 18-31-58-036.png in Resources */,
 				4DD3B66F1AA5C9DA007D3550 /* うどん２-1.png in Resources */,
 				4D9469201AA58E1E007297AC /* LaunchScreen.xib in Resources */,
+				4D9DFE871AA76EE300DADE69 /* food_udon.png in Resources */,
 				4DE317651AA5B839001FD03D /* うどん-２ 18-31-58-137.png in Resources */,
 				4DE3176E1AA5B839001FD03D /* 猫 18-31-58-202.png in Resources */,
 				4DE317661AA5B839001FD03D /* うどん２ 18-31-58-131.png in Resources */,
