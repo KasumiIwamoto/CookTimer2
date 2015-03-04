@@ -8,12 +8,29 @@
 
 import UIKit
 
-class Movie6ViewController: UIViewController {
+class Movie6ViewController: UIViewController,UIWebViewDelegate {
+    @IBOutlet var myWebView : UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        myWebView.delegate = self
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        let url : NSURL = NSURL(string : "https://www.youtube.com/watch?v=BulXil2ROy4")!
+        let request : NSURLRequest = NSURLRequest(URL: url)
+        myWebView.loadRequest(request)
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView!) {
+        println("webViewDidFinishLoad")
+    }
+    
+    func webViewDidStartLoad(webView: UIWebView!) {
+        println("webViewDidStartLoad")
+
     }
 
     override func didReceiveMemoryWarning() {

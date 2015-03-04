@@ -22,6 +22,7 @@
 		4DD3B6751AA5DEE5007D3550 /* Movie4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3B6741AA5DEE5007D3550 /* Movie4ViewController.swift */; };
 		4DD3B6771AA5DF03007D3550 /* Movie5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3B6761AA5DF03007D3550 /* Movie5ViewController.swift */; };
 		4DD3B6791AA5DF2B007D3550 /* Movie6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3B6781AA5DF2B007D3550 /* Movie6ViewController.swift */; };
+		4DD3B67B1AA738A4007D3550 /* つぎへ.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3B67A1AA738A4007D3550 /* つぎへ.png */; };
 		4DE317621AA5B839001FD03D /* WE020119_02_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE317541AA5B839001FD03D /* WE020119_02_1280.jpg */; };
 		4DE317631AA5B839001FD03D /* WE030183_02_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE317551AA5B839001FD03D /* WE030183_02_1280.jpg */; };
 		4DE317641AA5B839001FD03D /* うどん 18-31-58-126.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE317561AA5B839001FD03D /* うどん 18-31-58-126.png */; };
@@ -68,6 +69,7 @@
 		4DD3B6741AA5DEE5007D3550 /* Movie4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie4ViewController.swift; sourceTree = "<group>"; };
 		4DD3B6761AA5DF03007D3550 /* Movie5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie5ViewController.swift; sourceTree = "<group>"; };
 		4DD3B6781AA5DF2B007D3550 /* Movie6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie6ViewController.swift; sourceTree = "<group>"; };
+		4DD3B67A1AA738A4007D3550 /* つぎへ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "つぎへ.png"; sourceTree = "<group>"; };
 		4DE317541AA5B839001FD03D /* WE020119_02_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WE020119_02_1280.jpg; sourceTree = "<group>"; };
 		4DE317551AA5B839001FD03D /* WE030183_02_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WE030183_02_1280.jpg; sourceTree = "<group>"; };
 		4DE317561AA5B839001FD03D /* うどん 18-31-58-126.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "うどん 18-31-58-126.png"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		4D9469521AA59091007297AC /* image */ = {
 			isa = PBXGroup;
 			children = (
+				4DD3B67A1AA738A4007D3550 /* つぎへ.png */,
 				4DD3B66C1AA5BCD7007D3550 /* WE030034_02_1280.jpg */,
 				4DE317541AA5B839001FD03D /* WE020119_02_1280.jpg */,
 				4DE317551AA5B839001FD03D /* WE030183_02_1280.jpg */,
@@ -282,6 +285,7 @@
 				4DE317641AA5B839001FD03D /* うどん 18-31-58-126.png in Resources */,
 				4D94691D1AA58E1E007297AC /* Images.xcassets in Resources */,
 				4DE3176C1AA5B839001FD03D /* ラーメン 16.32.00 18-31-58-198.png in Resources */,
+				4DD3B67B1AA738A4007D3550 /* つぎへ.png in Resources */,
 				4DE317681AA5B839001FD03D /* タイトルに戻る.png in Resources */,
 				4DE317621AA5B839001FD03D /* WE020119_02_1280.jpg in Resources */,
 				4DE317631AA5B839001FD03D /* WE030183_02_1280.jpg in Resources */,

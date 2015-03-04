@@ -138,6 +138,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="bGc-we-4H8">
                                 <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zb-0g-vk8">
+                                <rect key="frame" x="48" y="496" width="115" height="109"/>
+                                <state key="normal" title="Button" image="つぎへ.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iAx-fX-YCS" kind="presentation" id="tpR-Kt-vnJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -148,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69e-Ik-c87" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="707.5" y="-123.5"/>
+            <point key="canvasLocation" x="695.5" y="-164.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rm6-wK-eKn">
@@ -192,7 +201,7 @@
         <!--Movie View Controller-->
         <scene sceneID="o1L-jl-4Eh">
             <objects>
-                <viewController id="dTa-CA-gZL" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie2" id="dTa-CA-gZL" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rnY-gi-kkf"/>
                         <viewControllerLayoutGuide type="bottom" id="aYZ-l1-mJs"/>
@@ -214,22 +223,31 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="wkJ-T8-h4P">
                                 <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZ3-JN-iEa">
+                                <rect key="frame" x="35" y="493" width="115" height="109"/>
+                                <state key="normal" title="Button" image="つぎへ.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iAx-fX-YCS" kind="presentation" id="Yjg-cq-1IA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="myWebView" destination="Na3-Is-hVL" id="bhh-TS-ydS"/>
+                        <outlet property="myWebView" destination="Na3-Is-hVL" id="Fci-cz-Ejf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xt4-8t-Fbu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="631.5" y="658.5"/>
+            <point key="canvasLocation" x="637.5" y="556.5"/>
         </scene>
         <!--Movie View Controller-->
         <scene sceneID="OM7-Ae-zZ2">
             <objects>
-                <viewController id="2n5-ni-MOH" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie5" id="2n5-ni-MOH" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ps7-h4-eZa"/>
                         <viewControllerLayoutGuide type="bottom" id="Xn1-yp-6sI"/>
@@ -251,12 +269,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="T6N-5x-6l2">
                                 <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2C-z6-xnO">
+                                <rect key="frame" x="50" y="505" width="115" height="109"/>
+                                <state key="normal" title="Button" image="つぎへ.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iAx-fX-YCS" kind="presentation" id="bNp-BV-F9i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="myWebView" destination="dBE-Uf-4MW" id="WsF-dE-Kfa"/>
+                        <outlet property="myWebView" destination="dBE-Uf-4MW" id="bbh-Kn-LcK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAu-AG-g60" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -266,7 +293,7 @@
         <!--Movie View Controller-->
         <scene sceneID="oJL-tm-yxH">
             <objects>
-                <viewController id="xF3-dQ-J7l" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie4" id="xF3-dQ-J7l" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="69h-EQ-Wgx"/>
                         <viewControllerLayoutGuide type="bottom" id="jk3-t7-dbM"/>
@@ -288,22 +315,31 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="ijf-zp-Dpg">
                                 <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtk-gY-gcj">
+                                <rect key="frame" x="37" y="505" width="115" height="109"/>
+                                <state key="normal" title="Button" image="つぎへ.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iAx-fX-YCS" kind="presentation" id="hrk-Cr-gCA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="myWebView" destination="CCK-4x-G6F" id="RQR-K5-uUb"/>
+                        <outlet property="myWebView" destination="CCK-4x-G6F" id="VU7-Ij-ahk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZE-0s-W65" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="303.5" y="1334.5"/>
+            <point key="canvasLocation" x="253.5" y="1144.5"/>
         </scene>
         <!--Movie View Controller-->
         <scene sceneID="c1T-c6-lEU">
             <objects>
-                <viewController id="Bxh-Ou-OQj" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie3" id="Bxh-Ou-OQj" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TdC-n7-TMy"/>
                         <viewControllerLayoutGuide type="bottom" id="wYG-Lm-b98"/>
@@ -325,22 +361,31 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="EMn-e2-d5A">
                                 <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oa5-2F-DP3">
+                                <rect key="frame" x="42" y="500" width="115" height="109"/>
+                                <state key="normal" title="Button" image="つぎへ.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iAx-fX-YCS" kind="presentation" id="byt-tt-cXm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="myWebView" destination="kbk-6G-LzM" id="Uhs-bK-Pyp"/>
+                        <outlet property="myWebView" destination="kbk-6G-LzM" id="J4V-Rh-MeQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMQ-sR-0pD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1296.5" y="718.5"/>
+            <point key="canvasLocation" x="1140.5" y="598.5"/>
         </scene>
         <!--Movie View Controller-->
         <scene sceneID="w2U-fK-mEz">
             <objects>
-                <viewController id="bWQ-TP-SCK" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="movie6" id="bWQ-TP-SCK" customClass="MovieViewController" customModule="CookTimer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hsR-2Z-dsz"/>
                         <viewControllerLayoutGuide type="bottom" id="7vB-pB-GSC"/>
@@ -362,12 +407,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="うどん 18-31-58-126.png" translatesAutoresizingMaskIntoConstraints="NO" id="veK-F2-sYO">
                                 <rect key="frame" x="184" y="401" width="175" height="258"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbV-4D-7fB">
+                                <rect key="frame" x="51" y="507" width="115" height="109"/>
+                                <state key="normal" title="Button" image="つぎへ.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iAx-fX-YCS" kind="presentation" id="2xf-uG-p0N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="myWebView" destination="zEI-cP-OsB" id="kaw-gK-Ika"/>
+                        <outlet property="myWebView" destination="zEI-cP-OsB" id="jfW-O2-0v9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBk-2k-1Pd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -382,6 +436,7 @@
         <image name="うどん 18-31-58-126.png" width="196" height="335"/>
         <image name="うどん２ 18-31-58-131.png" width="139" height="35"/>
         <image name="うどん２-1.png" width="512" height="512"/>
+        <image name="つぎへ.png" width="347" height="347"/>
         <image name="カップラーメン 18-31-58-036.png" width="400" height="330"/>
         <image name="タイトルに戻る.png" width="471" height="174"/>
         <image name="ボタン１ 18-31-58-129.jpg" width="241" height="241"/>
@@ -392,4 +447,7 @@
         <image name="文字 18-31-58-189.png" width="370" height="276"/>
         <image name="猫 18-31-58-202.png" width="150" height="150"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="2xf-uG-p0N"/>
+    </inferredMetricsTieBreakers>
 </document>
